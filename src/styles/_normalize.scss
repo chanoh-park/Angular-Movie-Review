@@ -1,0 +1,19 @@
+// 기본 설정 초기화
+
+html,
+body,
+p,
+ul,
+li,
+button,
+input,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
