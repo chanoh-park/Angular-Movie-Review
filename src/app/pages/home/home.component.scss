@@ -1,0 +1,27 @@
+.content-wrap {
+  background-image: url("/assets/images/home-img/home-img1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.left-arrow-icon {
+  position: absolute;
+  top: 48%;
+  left: 40px;
+  width: 80px;
+  height: 80px;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+.right-arrow-icon {
+  position: absolute;
+  top: 48%;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  font-size: 80px;
+  cursor: pointer;
+}

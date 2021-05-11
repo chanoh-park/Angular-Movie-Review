@@ -1,4 +1,5 @@
 .header {
+  position: fixed;
   width: 100%;
   height: 62px;
   border-bottom: 1px solid #eae9e8;
@@ -99,9 +100,9 @@
   color: #dddddd;
 }
 
-@media (max-width: 1399px) {
-  .header-wrap {
-    width: 88%;
-    margin: 0 60px;
-  }
-}
+// @media (max-width: 1399px) {
+//   .header-wrap {
+//     width: 88%;
+//     margin: 0 60px;
+//   }
+// }
