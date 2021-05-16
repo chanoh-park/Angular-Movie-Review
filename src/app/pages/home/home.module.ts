@@ -5,7 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { LayoutModule } from 'src/app/components/layout/layout.module';
 import { HomeComponent } from './home.component';
 import { MatIconModule } from '@angular/material/icon';
-import { MatButtonModule } from '@angular/material/button';
+import { MatRippleModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [HomeComponent],
@@ -14,7 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
     HomeRoutingModule,
     LayoutModule,
     MatIconModule,
-    MatButtonModule,
+    MatRippleModule,
   ],
 })
 export class HomeModule {}

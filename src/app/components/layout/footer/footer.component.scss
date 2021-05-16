@@ -1,0 +1,85 @@
+.footer {
+  background-color: #1c1d1f;
+  width: 100%;
+  padding: 20px 0 38px 0;
+}
+
+.footer-content-wrap {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.content-text-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.content-text-wrap:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.content-text-wrap:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.content-text {
+  font: var(--noto);
+  color: #a5a5a7;
+
+  &.color {
+    color: #848484;
+  }
+}
+
+.line {
+  width: 1px;
+  height: 12px;
+  background-color: #a5a5a7;
+  margin: 0px 10px;
+
+  &.none {
+    width: 0;
+    margin: 0px 8px;
+  }
+}
+
+.copyright-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sns-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.github-image {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.margin-0 {
+  margin-bottom: 0;
+}
+
+.facebook-icon {
+  color: #ffffff;
+  margin: 0 16px;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
+
+.thumb-up-icon {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+}
